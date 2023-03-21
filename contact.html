@@ -344,22 +344,26 @@
                                 <p class="font_family_poppins">We support businesses through periods of expansion succession, and all other important transitions.</p>
                             </div>
                             <div class="form-inner p_relative ml_5 mr_5">
-                                <form method="post" action="sendemail.php" id="contact-form"> 
+                                 <!--Update the URL for thank you page on form submit -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='contact.html';}"></iframe> 
+                                <form method="post" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfSYmH9q7KK0VpYnnIyRRid2uZa3y3ptv_BPa_y9QFH1nEzXw/formResponse" id="contact-form" target="hidden_iframe" onsubmit="submitted=true;" > 
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                            <input type="text" name="entry.1285073202" placeholder="Your Name" required="">
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="email" name="email" placeholder="Email Address" required="">
-                                        </div>
+                                        
                                         <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                            <input type="text" name="phone" required="" placeholder="Phone Number">
-                                        </div>
-                                        <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                            <input type="text" name="subject" required="" placeholder="Subject">
+                                            <input type="text" name="entry.2123191202" required="" placeholder="Phone Number">
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                            <input type="email" name="entry.542066820" placeholder="Email Address" required="">
+                                        </div>
+                                        <!-- <div class="col-lg-6 col-md-12 col-sm-12 form-group">
+                                            <input type="text" name="subject" required="" placeholder="Subject">
+                                        </div> -->
+                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                            <textarea name="entry.1660131691" placeholder="Leave A Comment"></textarea>
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                                             <button class="theme-btn theme-btn-eight" type="submit" name="submit-form">Send Message <i class="icon-4"></i></button>
