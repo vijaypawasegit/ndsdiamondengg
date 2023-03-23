@@ -401,7 +401,7 @@ img {
   font-family: 'Inter', sans-serif;
   color: #fff !important;
   text-align: center;
-  padding: 12px 32px;
+  padding: 12px 20px;
   border-radius: 5px;
   text-transform: capitalize;
   z-index: 1;
@@ -1282,7 +1282,7 @@ img {
   position:absolute;
   left: inherit;
   top:100%;
-  width:230px;
+  width:300px;
   margin-top: 15px;
   z-index:100;
   display:none;
@@ -4382,4 +4382,13 @@ div#mCSB_1_container{
 }
 .clients-one {
   margin-top: 50px;
+}
+.de {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+
+}
+.project-details .list-style-one li {
+  width: 100%;
 }
