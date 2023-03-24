@@ -4403,3 +4403,7 @@ div#mCSB_1_container{
 .letters-loading {
   font-family: 'Ancient' !important;
 }
+.ndslogo img {
+  width: 200px !important;
+  max-width: 200px !important;
+}
