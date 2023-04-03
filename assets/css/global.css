@@ -4409,3 +4409,9 @@ div#mCSB_1_container{
   width: 220px !important;
   max-width: 220px !important;
 }
+.project-details .project-info .info-list li {
+  display: block;
+}
+.project-details .project-info .info-list li span {
+  width: 140px !important;
+}
